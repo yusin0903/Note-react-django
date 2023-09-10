@@ -46,10 +46,9 @@ python manage.py runserver
 
 ## Result
 
-![create_note](https://github.com/Yusinzz/Note-react-django/assets/34501891/ee3a8ce3-ffbc-4d6a-a8f5-9c1cb95fdcb3)
-
-![create1](https://github.com/Yusinzz/Note-react-django/assets/34501891/c7649378-fa6d-44c8-9a2a-7f75db8c022f)
-
-![delete](https://github.com/Yusinzz/Note-react-django/assets/34501891/2a4ab83f-33b1-4447-9f25-c91427da5159)
+![create_note](https://github.com/Yusinzz/Note-react-django/assets/34501891/b58a1615-0ad6-49b0-91a9-cd3af4a033d7)
+![create1](https://github.com/Yusinzz/Note-react-django/assets/34501891/7324b6a3-d5dd-40fc-bc6f-17ab85696f39)
+![created](https://github.com/Yusinzz/Note-react-django/assets/34501891/ce386329-aaea-4216-860d-63766f0501a8)
+![delete](https://github.com/Yusinzz/Note-react-django/assets/34501891/1495980b-f366-4b36-9131-88bfb2951561)
 
 
