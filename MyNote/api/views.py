@@ -90,6 +90,6 @@ def deleteNote(request, pk):
             return Response({"result":"note delete"}, status=status.HTTP_200_OK)
     except as e:
         logger.error("error message: %s", e)
-        return Response(Exception, status=status.HTTP_400_BAD_REQUEST)
+        raise Response(Exception, status=status.HTTP_400_BAD_REQUEST)
             
 
