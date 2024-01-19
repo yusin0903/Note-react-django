@@ -11,6 +11,13 @@ const ListItem = ({ note }) => {
         
     </Link>
   )
-}
+};
+ListItem.propTypes = {
+  note: PropTypes.shape({
+    id: PropTypes.string.isRequired, // Assuming id is a string and is required
+    body: PropTypes.string.isRequired, // Assuming body is a string and is required
+    // Add more prop types for other properties of the note object
+  }).isRequired,
+};
 
 export default ListItem
