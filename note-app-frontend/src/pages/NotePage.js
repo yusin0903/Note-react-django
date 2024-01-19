@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { useParams, Link, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { ReactComponent as ArrowLeft } from "../assets/arrow-left.svg";
 
-const NotePage = ({}) => {
+const NotePage = () => {
   // React V6 使用方法
   const { id } = useParams();
   let noteId = id;
