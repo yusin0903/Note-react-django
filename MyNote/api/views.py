@@ -4,7 +4,9 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from .models import Note
 from .serializers import NoteSerializer
+import logging
 
+logger = logging.getLogger(__name__)
 
 @api_view(['GET'])
 def getRoute(request):
@@ -86,8 +88,8 @@ def deleteNote(request, pk):
         else:
             note.delete()
             return Response({"result":"note delete"}, status=status.HTTP_200_OK)
-    except:
-        # look up some info info here
-            return Response(Exception, status=status.HTTP_400_BAD_REQUEST)
+    except as e:
+        logger.error("error message: %s", e)
+        return Response(Exception, status=status.HTTP_400_BAD_REQUEST)
             
 
