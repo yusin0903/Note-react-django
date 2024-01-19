@@ -23,10 +23,10 @@ const NotesListPage = () => {
                 <p className='notes-count'>{notes.length}</p>
             </div>
             
-            <div className='notes-list'>
-                {notes.map((note, index) =>(
-                    <ListItem key={index} note={note}/>
-                ))}
+           <div className='notes-list'>
+            {notes.map((note) => (
+                <ListItem key={note.id} note={note} />
+            ))}
             </div>
 
             <AddButton/>
